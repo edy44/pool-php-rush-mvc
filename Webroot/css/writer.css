@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+nav, .page-footer {
+    background-color: #0D47A1;
+}
+
+.btn
+{
+    background-color: #79e6dc;
+    margin-top: 10px;
+}
+h6
+{
+    height: 50px;
+    padding: 15px;
+    background-color: rgb(240, 173, 247);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+}
+
+h5{
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+h3
+{
+    border-radius: 5px;
+    font-style : italic;
+    border-style: dotted;
+    text-align: center;
+    width : 70%;
+    background-color: rgba(248, 112, 241, 0.938);
+}
+
+
+
+main {
+    flex: 1 0 auto;
+}

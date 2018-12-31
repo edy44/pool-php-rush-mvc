@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav, .page-footer
+{
+    background-color: #00acc1;
+}
+
+h3
+{
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-style : italic;
+    font-weight: bold;
+    border: 4mm ridge rgba(50, 220, 197, 0.6);
+    text-align: center;
+    padding : 10px 10px;
+    background-color: #18ffff;
+}
+
+p
+{
+    font-style: italic;
+}
+
+
+.btn-new
+{
+    margin-left: 20px;
+    background-color: rgb(247, 125, 94);
+}
+
+main {
+    flex: 1 0 auto;
+}

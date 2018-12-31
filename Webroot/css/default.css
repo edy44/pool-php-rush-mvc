@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav, .page-footer {
+    background-color: #a200ff;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h3
+{
+    text-decoration: underline;
+    text-align: center;
+    width : 70%;
+    font-style : italic;
+    border-style: dotted;
+    border-radius: 5px;
+    background-color: bisque;
+    padding : 10px 10px;
+}
+
+h5{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+form
+{
+    width : 70%;
+}
+
+.btn-search {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

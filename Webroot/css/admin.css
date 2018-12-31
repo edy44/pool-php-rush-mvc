@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav, .page-footer
+{
+    background-color: rgb(0, 34, 128);
+}
+
+h6{
+    height: 50px;
+    padding: 15px;
+    background-color: rgb(0, 255, 234);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+}
+
+h5{
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.btn
+{
+    background-color: #cddc39;
+    margin-top: 10px;
+}
+
+.status-open
+{
+    background-color: #ff4081;
+}
+
+.status-lock
+{
+    background-color: #607d8b;
+}
+
+.btn-edit
+{
+    background-color: #64ffda;
+}
+
+.btn-delete
+{
+    background-color: #ff3d00;
+}
+
+.articles
+{
+    background-color: bisque;
+}
+
+
+main {
+    flex: 1 0 auto;
+}
